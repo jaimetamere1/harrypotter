@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4D4C7D;
+    font-family: 'Nunito', sans-serif;
+}
+
+.logo img {
+    width: 245px;
+    height: 70px;
+}
+
+ion-icon {
+    font-size: 65px;
+    color: black;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+}
+
+.big-nav {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #36306273;
+
+}
+
+/* .banner {
+    width: 550px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.banner {
+    height: 680px;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    display: flex;
+    align-self: center;
+
+    border-radius: 15px;
+    margin: 15px;
+    text-align: center;
+    background-color: #e9d5ca1e;
+    border: 2px solid #36306273;
+
+    overflow: scroll;
+}
+
+.banner img {
+    height: 600px;
+    width: 100%;
+    background-position: cover;
+    border-radius: 15px 15px 0 0;
+    flex-basis: 60%;
+    object-fit: cover;
+}
+
+.banner h3 {
+    color: #827397;
+    margin: 5px;
+    flex-basis: 40%;
+}
+
+.summary {
+    text-align: center;
+    margin: 10px;
+    border: 2px solid #e9d5ca5e
+}
+
+.summary h2 {
+    color: #E9D5CA;
+}
+
+.summary p {
+    color: #aa97c5;
+}
+
+.books {
+    margin: 5px;
+    background-color: #e9d5ca5e;
+    border-radius: 15px
+}
+
+.books h2, h4 {
+    color: #E9D5CA;
+    text-align: center;
+}
+
+.bookcovers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.bookcovers img {
+    border-radius: 15px;
+    border: 5px solid #E9D5CA;
+}
+
+.bookorders1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bookorders1 img {
+    width: 120px;
+    margin: 5px;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+
+.btn {
+    width: 100%;
+    border: 2px solid #36306273;
+    background-color: #ffffff5e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.bookorders2 img{
+    width: 120px;
+    margin: 5px;
+    margin-bottom: 0;
+    display: none;
+}
+
+.movies {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    padding: 5px;
+}
+
+.movies h2{
+    color: white;
+}
+
+.movies p {
+    color: #aa97c5
+}
+
+.moviecard {
+    border-radius: 15px;
+    border: 3px solid #e9d5ca5e;
+    width: 60%;
+    height: 320px;
+
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 5px;
+}
+
+.moviecardimg {
+    flex-basis: 70%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.moviecardimg img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.moviecard a {
+    color: #E9D5CA;
+    background-color: #827397;
+    border-radius: 15px;
+    width: 50%;
+    margin: 5px;
+}
+
+
+.moreinfo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.moreinfo h2, a {
+    color: #E9D5CA
+}
+
+.moreinfo a {
+    background-color: #e9d5ca7a;
+    width: 15%;
+    border-radius: 15px;
+}
+
+.contactus {
+    display: flex;
+    flex-direction: column;
+    color: #E9D5CA;
+    text-align: center;
+    border: 2px solid #e9d5ca5e;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 55%;
+}
+
+.allinputs {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form input, textarea{
+    margin: 3px;
+}
+
+.btnother {
+    width: 50%;
+    margin: 3px;
+    justify-content: flex-start;
+}
+
+footer {
+    color: #E9D5CA;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #e9d5ca5e;
+}
+
+footer ion-icon {
+    font-size: 1.3rem;
+    color: #E9D5CA;
+}
+
+.moviediv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}

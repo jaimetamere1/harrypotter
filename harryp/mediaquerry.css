@@ -1,0 +1,138 @@
+@media only screen and (min-width: 992px) {
+    .menu {
+        display: none;
+    }
+
+    .big-nav {
+        display: flex;
+        justify-content: space-evenly;
+        font-weight: bold;
+    }
+
+    .big-nav li a {
+        color: black;
+    }
+
+    .big-nav li a:hover{
+        color: #E9D5CA;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        flex-basis: 30%;
+    }
+
+    nav {
+        flex-basis: 70%;
+    }
+
+    .banner {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .banner img{
+        object-fit: fill;
+        height: 600px;
+        width: 100%;
+        border-radius: 15px 15px 0 0 ;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bookcovers {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bookorders {
+        margin: 10px
+    }
+
+    .bookorders1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .bookorders1 {
+        flex-basis: 50%;
+    }
+
+    .bookorders2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .bookorders2 img {
+        display: flex;
+    }
+
+    .moviecard {
+        display: flex;
+        flex-direction: row;
+        height: 220px;
+    }
+
+    .moviecardimg {
+        height: 100%;
+        flex-basis: 50%;
+    }
+
+    .movieinfo {
+        height: 100%;
+        flex-basis: 50%;
+        align-self: center;
+    }
+
+    .information {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 1.5rem;
+    }
+
+    .contactus {
+        flex-basis: 70%;
+    }
+
+    .allinputs {
+        flex-direction: row;
+    }
+    
+    .inputs {
+        flex-basis: 50%;
+        height: 100%;
+    }
+
+    .inputs input {
+        height: 60px;
+    }
+
+    .allinputs textarea {
+        flex-basis: 50%;
+    }
+
+    .moreinfo {
+        flex-basis: 30%;
+        flex-direction: column;
+    }
+
+    .moreinfo a {
+        width: 175px;
+        height: 35px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .banner {
+        width: 50%
+    }
+}
